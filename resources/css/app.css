@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Volitelné: Pokud chceš, aby scroll nebyl tak agresivní, když 
+   máš nahoře fixní menu (sticky nav), přidej i toto: */
+section {
+    scroll-padding-top: 80px; /* Výška tvé navigace, aby nadpis nebyl schovaný pod ní */
+}
