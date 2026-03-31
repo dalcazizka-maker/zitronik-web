@@ -17,7 +17,7 @@
                 Zlobí vás příjem televize? Vypadává signál při špatném počasí? Změřím signál profi měřákem, vyměním starou anténu nebo nastavím satelit pro Skylink a freeSAT.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <a href="tel:+420700100200" class="px-8 py-4 rounded-xl text-white bg-blue-600 hover:bg-blue-500 font-bold text-lg shadow-lg shadow-blue-600/30 transition-all hover:-translate-y-1 flex items-center justify-center gap-2">
+                <a href="tel:+420734130467" class="px-8 py-4 rounded-xl text-white bg-blue-600 hover:bg-blue-500 font-bold text-lg shadow-lg shadow-blue-600/30 transition-all hover:-translate-y-1 flex items-center justify-center gap-2">
                     <i class="ri-phone-fill"></i> Volat technika
                 </a>
                 <a href="#cenik" class="px-8 py-4 rounded-xl text-white bg-slate-800 hover:bg-slate-700 border border-slate-700 font-bold text-lg transition-all flex items-center justify-center gap-2">

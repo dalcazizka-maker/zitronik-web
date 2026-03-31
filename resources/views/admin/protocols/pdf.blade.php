@@ -74,15 +74,16 @@
     <div class="header">
         <table style="width: 100%;">
             <tr>
-                <td>
+                <td style="width: 50%;">
                     <div class="company-name">ZITRONIK</div>
-                    <div>Servis elektroniky a montáže</div>
-                    <div>Klimkovice</div>
+                    <div>Dalibor Žižka - Servis a montáže</div>
+                    <div>Vítězná 2724/9a</div>
+                    <div>702 00 Moravská Ostrava</div>
                 </td>
                 <td style="text-align: right;">
-                    <div>Tel: +420 700 100 200</div>
-                    <div>Email: info@zitronik.cz</div>
-                    <div>IČO: 12345678 (doplň si)</div>
+                    <div>Tel: +420 734 130 467</div>
+                    <div>Email: dalca.zizka@seznam.cz</div>
+                    <div>IČO: 07470622</div>
                 </td>
             </tr>
         </table>

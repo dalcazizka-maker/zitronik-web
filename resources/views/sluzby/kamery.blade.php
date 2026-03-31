@@ -20,7 +20,7 @@
                 <a href="{{ route('kontakt') }}" class="px-8 py-4 rounded-xl text-white bg-indigo-600 hover:bg-indigo-500 font-bold text-lg shadow-lg shadow-indigo-600/30 transition-all hover:-translate-y-1 flex items-center justify-center gap-2">
                     <i class="ri-mail-send-fill"></i> Poptat nacenění
                 </a>
-                <a href="tel:+420700100200" class="px-8 py-4 rounded-xl text-white bg-slate-800 hover:bg-slate-700 border border-slate-700 font-bold text-lg transition-all flex items-center justify-center gap-2">
+                <a href="tel:+420734130467" class="px-8 py-4 rounded-xl text-white bg-slate-800 hover:bg-slate-700 border border-slate-700 font-bold text-lg transition-all flex items-center justify-center gap-2">
                     Volat technika
                 </a>
             </div>

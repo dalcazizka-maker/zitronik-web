@@ -101,11 +101,11 @@
         </div>
         
         <div class="flex items-center gap-3">
-            <a href="tel:+420700100200" class="flex items-center gap-2 text-blue-700 font-black text-xl hover:scale-105 transition-transform">
-                <i class="ri-phone-fill"></i> +420 700 100 200
+            <a href="tel:+420734130467" class="flex items-center gap-2 text-blue-700 font-black text-xl hover:scale-105 transition-transform">
+                <i class="ri-phone-fill"></i> +420 734 130 467
             </a>
             <div class="h-8 w-px bg-slate-200 mx-2 hidden md:block"></div>
-            <p class="text-xs text-slate-400 uppercase font-bold tracking-widest hidden lg:block">Po – Ne: 8:00 – 20:00</p>
+            <p class="text-xs text-slate-400 uppercase font-bold tracking-widest hidden lg:block">Po – Pa: 9:00 – 16:00</p>
         </div>
     </div>
 </div>
@@ -188,7 +188,8 @@
                 <div class="absolute -bottom-4 -right-4 w-64 h-64 bg-slate-200 rounded-3xl -z-10"></div>
                 
                 <div class="relative rounded-3xl overflow-hidden shadow-2xl border-8 border-white bg-slate-200 aspect-[4/5] flex items-center justify-center group">
-                    <i class="ri-user-settings-line text-8xl text-slate-400 group-hover:scale-110 transition-transform duration-500"></i>
+                    
+                    <img src="{{ asset('img/o-mne.webp') }}" alt="Dalibor Žižka při montáži" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     
                     <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-900 via-slate-900/80 to-transparent p-8 text-white">
                         <p class="text-3xl font-black mb-1">Dalibor Žižka</p>

@@ -20,13 +20,13 @@
                     <h3 class="text-2xl font-bold text-slate-900 mb-6">Přímý kontakt</h3>
                     
                     <div class="space-y-6">
-                        <a href="tel:+420700100200" class="flex items-center gap-4 group">
+                        <a href="tel:+420734130467" class="flex items-center gap-4 group">
                             <div class="w-12 h-12 bg-blue-100 text-blue-700 rounded-2xl flex items-center justify-center text-xl group-hover:scale-110 transition-transform">
                                 <i class="ri-phone-fill"></i>
                             </div>
                             <div>
                                 <p class="text-sm text-slate-500 font-medium mb-1">Zavolejte mi</p>
-                                <p class="text-xl font-black text-slate-900 group-hover:text-blue-700 transition-colors">+420 700 100 200</p>
+                                <p class="text-xl font-black text-slate-900 group-hover:text-blue-700 transition-colors">+420 734 130 467</p>
                             </div>
                         </a>
                         
@@ -36,12 +36,41 @@
                             </div>
                             <div>
                                 <p class="text-sm text-slate-500 font-medium mb-1">Napište e-mail</p>
-                                <p class="text-lg font-bold text-slate-900 group-hover:text-blue-700 transition-colors">info@zitronik.cz</p>
+                                <p class="text-lg font-bold text-slate-900 group-hover:text-blue-700 transition-colors">dalca.zizka@seznam.cz</p>
                             </div>
                         </a>
                     </div>
                 </div>
-
+                <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-8 hover:border-blue-500 transition-colors">
+                    <h3 class="text-2xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                        <i class="ri-file-text-line text-blue-600"></i> Fakturační údaje
+                    </h3>
+                    
+                    <div class="space-y-4 text-slate-600 text-lg">
+                        <div>
+                            <strong class="block text-xl text-slate-900 mb-1">Dalibor Žižka - ZITRONIK</strong>
+                            <span>Vítězná 2724/9a</span><br>
+                            <span>702 00 Moravská Ostrava</span>
+                        </div>
+                        
+                        <div class="pt-5 mt-5 border-t border-slate-100 space-y-3">
+                            <div class="flex items-center gap-3">
+                                <i class="ri-fingerprint-line text-slate-400 text-xl"></i>
+                                <span><strong>IČO:</strong> 07470622</span>
+                            </div>
+                            
+                            <div class="flex items-center gap-3">
+                                <i class="ri-phone-line text-slate-400 text-xl"></i>
+                                <a href="tel:+420734130467" class="hover:text-blue-600 transition"><strong>Tel:</strong> +420 734 130 467</a>
+                            </div>
+                            
+                            <div class="flex items-center gap-3">
+                                <i class="ri-mail-line text-slate-400 text-xl"></i>
+                                <a href="mailto:dalca.zizka@seznam.cz" class="hover:text-blue-600 transition"><strong>E-mail:</strong> dalca.zizka@seznam.cz</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="bg-slate-900 p-8 rounded-3xl shadow-xl text-white">
                     <h3 class="text-xl font-bold mb-6 flex items-center gap-3">
                         <i class="ri-map-pin-2-fill text-blue-400"></i> Kde mě najdete
@@ -52,7 +81,7 @@
                             <div>
                                 <strong class="text-white">Servisní centrum Zitronik</strong><br>
                                 <span class="text-slate-400">Tady probíhají opravy elektroniky</span><br>
-                                Ulice / Číslo popisné 123<br>
+                                Náměstí 71<br>
                                 742 83 Klimkovice
                             </div>
                         </div>
@@ -64,7 +93,7 @@
                         <div class="h-px bg-slate-700/50 my-2"></div>
                         <p class="flex items-start gap-3 text-sm">
                             <i class="ri-time-line text-slate-400 mt-1"></i>
-                            <span>Po – Pá: 8:00 – 18:00<br>Víkendy: Dle dohody (pohotovost)</span>
+                            <span>Po – Pá: 9:00 – 16:00<br>Víkendy: Dle dohody (pohotovost)</span>
                         </p>
                     </div>
                 </div>

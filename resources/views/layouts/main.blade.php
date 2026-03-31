@@ -44,15 +44,15 @@
                 <ul class="space-y-3 text-sm text-slate-400">
                     <li class="flex items-start gap-3">
                         <i class="ri-map-pin-2-fill text-blue-500 mt-0.5"></i>
-                        <span>Servis: Klimkovice<br>Výjezdy: Moravskoslezský kraj</span>
+                        <span>Servis: Náměstí 71, Klimkovice, 74283<br>Výjezdy: Moravskoslezský kraj</span>
                     </li>
                     <li class="flex items-center gap-3">
                         <i class="ri-phone-fill text-blue-500"></i>
-                        <a href="tel:+420700100200" class="hover:text-white transition-colors font-bold">+420 700 100 200</a>
+                        <a href="tel:+420734130467" class="hover:text-white transition-colors font-bold">+420 734 130 467</a>
                     </li>
                     <li class="flex items-center gap-3">
                         <i class="ri-mail-send-fill text-blue-500"></i>
-                        <a href="mailto:info@zitronik.cz" class="hover:text-white transition-colors">info@zitronik.cz</a>
+                        <a href="mailto:info@zitronik.cz" class="hover:text-white transition-colors">dalca.zizka@seznam.cz</a>
                     </li>
                 </ul>
             </div>

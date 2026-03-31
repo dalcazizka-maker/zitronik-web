@@ -20,7 +20,7 @@
                 <a href="{{ route('kontakt') }}" class="px-8 py-4 rounded-xl text-white bg-teal-600 hover:bg-teal-500 font-bold text-lg shadow-lg shadow-teal-600/30 transition-all hover:-translate-y-1 flex items-center justify-center gap-2">
                     <i class="ri-map-pin-2-fill"></i> Kde mě najdete
                 </a>
-                <a href="tel:+420700100200" class="px-8 py-4 rounded-xl text-white bg-slate-800 hover:bg-slate-700 border border-slate-700 font-bold text-lg transition-all flex items-center justify-center gap-2">
+                <a href="tel:+420734130467" class="px-8 py-4 rounded-xl text-white bg-slate-800 hover:bg-slate-700 border border-slate-700 font-bold text-lg transition-all flex items-center justify-center gap-2">
                     Konzultovat závadu
                 </a>
             </div>
