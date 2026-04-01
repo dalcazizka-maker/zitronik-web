@@ -35,6 +35,19 @@
                     </div>
                 </a>
 
+                <a href="{{ route('gallery.create') }}" class="bg-white overflow-hidden shadow-sm sm:rounded-xl border border-slate-200 hover:border-indigo-500 hover:shadow-md transition-all group flex flex-col h-full">
+                    <div class="p-6 flex-grow">
+                        <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Moje práce (Galerie)</h3>
+                        <p class="text-slate-500 text-sm">Nahrávání nových fotek z realizací, automatická optimalizace a komprese na web.</p>
+                    </div>
+                    <div class="bg-slate-50 px-6 py-3 border-t border-slate-100 text-indigo-600 font-bold text-sm flex items-center justify-between">
+                        Přidat fotku <span class="group-hover:translate-x-1 transition-transform">&rarr;</span>
+                    </div>
+                </a>
+
                 <a href="/" class="bg-slate-900 overflow-hidden shadow-sm sm:rounded-xl border border-slate-800 hover:bg-slate-800 hover:shadow-md transition-all group flex flex-col h-full">
                     <div class="p-6 flex-grow">
                         <div class="w-12 h-12 bg-slate-800 text-white rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform shadow-inner">

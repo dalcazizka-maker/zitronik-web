@@ -189,7 +189,7 @@
                 
                 <div class="relative rounded-3xl overflow-hidden shadow-2xl border-8 border-white bg-slate-200 aspect-[4/5] flex items-center justify-center group">
                     
-                    <img src="{{ asset('img/o-mne.webp') }}" alt="Dalibor Žižka při montáži" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <img src="{{ asset('img/o-mne.webp') }}" alt="Dalibor Žižka - servis" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     
                     <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-900 via-slate-900/80 to-transparent p-8 text-white">
                         <p class="text-3xl font-black mb-1">Dalibor Žižka</p>
@@ -270,61 +270,27 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            
+            @forelse($latestPhotos as $photo)
             <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-slate-100 group hover:-translate-y-2 transition-transform duration-300">
                 <div class="relative h-64 overflow-hidden bg-slate-200">
-                    <div class="absolute inset-0 flex items-center justify-center text-slate-400 group-hover:scale-110 transition-transform duration-500">
-                        <i class="ri-shield-check-fill text-6xl"></i>
-                    </div>
+                    <img src="{{ Storage::url($photo->image_path) }}" alt="{{ $photo->title }}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    
+                    @if($photo->category)
                     <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-lg text-sm font-bold text-slate-800 shadow-sm">
-                        Kamerový systém
+                        {{ $photo->category }}
                     </div>
+                    @endif
                 </div>
                 <div class="p-6">
-                    <div class="flex items-center gap-2 text-sm text-blue-600 font-bold mb-2">
-                        <i class="ri-map-pin-2-line"></i> Rodinný dům, Ostrava
-                    </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3">Instalace IP kamer Hikvision</h3>
-                    <p class="text-slate-600 mb-4 line-clamp-2">Kompletní dodávka a montáž 4 bezpečnostních kamer na fasádu s nočním viděním a nahráváním na NVR disk. Kabely taženy podhledem.</p>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">{{ $photo->title }}</h3>
+                    <p class="text-slate-600 mb-4 line-clamp-2">{{ $photo->description }}</p>
                 </div>
             </div>
-
-            <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-slate-100 group hover:-translate-y-2 transition-transform duration-300">
-                <div class="relative h-64 overflow-hidden bg-slate-200">
-                    <div class="absolute inset-0 flex items-center justify-center text-slate-400 group-hover:scale-110 transition-transform duration-500">
-                        <i class="ri-broadcast-fill text-6xl"></i>
-                    </div>
-                    <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-lg text-sm font-bold text-slate-800 shadow-sm">
-                        Antény a signál
-                    </div>
-                </div>
-                <div class="p-6">
-                    <div class="flex items-center gap-2 text-sm text-blue-600 font-bold mb-2">
-                        <i class="ri-map-pin-2-line"></i> Bytový dům, Klimkovice
-                    </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3">Měření a oprava DVB-T2</h3>
-                    <p class="text-slate-600 mb-4 line-clamp-2">Zákazníkovi vypadával obraz. Provedeno profi měření, výměna zkorodovaného zesilovače a instalace nového LTE filtru.</p>
-                </div>
+            @empty
+            <div class="col-span-1 md:col-span-2 lg:col-span-3 text-center py-12 text-slate-500 italic">
+                Pracuji na nahrávání ukázek. Brzy zde přibudou nové realizace.
             </div>
-
-            <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-slate-100 group hover:-translate-y-2 transition-transform duration-300">
-                <div class="relative h-64 overflow-hidden bg-slate-200">
-                    <div class="absolute inset-0 flex items-center justify-center text-slate-400 group-hover:scale-110 transition-transform duration-500">
-                        <i class="ri-alarm-warning-fill text-6xl"></i>
-                    </div>
-                    <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-lg text-sm font-bold text-slate-800 shadow-sm">
-                        Zabezpečení
-                    </div>
-                </div>
-                <div class="p-6">
-                    <div class="flex items-center gap-2 text-sm text-blue-600 font-bold mb-2">
-                        <i class="ri-map-pin-2-line"></i> Firemní sklad, Bílovec
-                    </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3">Montáž alarmu Jablotron 100+</h3>
-                    <p class="text-slate-600 mb-4 line-clamp-2">Zabezpečení skladovacích prostor. Instalace ústředny, pohybových čidel a sirény. Propojení na mobilní aplikaci majitele.</p>
-                </div>
-            </div>
-
+            @endforelse
         </div>
 
         <div class="mt-12 text-center">
